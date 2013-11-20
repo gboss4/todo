@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To / Do</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <script type="text/javascript" src="js/main.js"></script> 
+
+</head>
+<body>
+<div class="greeting">
+	My To-Do List. Don't Go Forgetting!
+</div>
+<br />
+<div class="content">
+	<form name="input"  method="post">
+	To-Do: <input type="text" id="theInput" name="todo">
+	<input type="button" onclick="displayTodo()" value="Submit" />	
+	
+	<p>The List: </p>
+	<input type="button" onclick="insert()" value="Show List" />
+	</form>
+	<span id="newText" onclick="insert()"></span>
+</div>
+</body>
+</html>
